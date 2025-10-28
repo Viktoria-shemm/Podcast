@@ -1,0 +1,34 @@
+.content {
+  row-gap: 50px;
+  align-items: start;
+  padding-top: 100px;
+  height: calc(100vh - var(--header-height));
+}
+
+.content::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/content-background.jpg) center/cover no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.content__text {
+  row-gap: 14px;
+}
+
+.content__subtitle {
+  font-family: var(--font-family-accent);
+  font-size: clamp(16px, 0.99vw, 19px);
+  font-weight: 400;
+  line-height: 1.42;
+}
+
+.content__buttons-group {
+  display: flex;
+  column-gap: 23px;
+}

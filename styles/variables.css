@@ -1,0 +1,20 @@
+:root {
+    --color-dark: #000000;
+    --color-dark-gray: #8E8B8C;
+    --color-gray: #969696;
+    --color-light-gray: #CCCCCC;
+    --color-bacground: #F8F8F8;
+    --color-light: #FFFFFF;
+
+    --container-width: 1300px;
+    --container-padding-x: 25px;
+
+    --font-family-base: "Lato", sans-serif;
+    --font-family-accent: "Open Sans", sans-serif;
+
+    --border-radius: 10px;
+
+    --transition-duration: 0.3s;
+
+    --header-height: 137.5px;
+}

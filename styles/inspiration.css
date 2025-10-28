@@ -1,0 +1,75 @@
+.inspiration {
+  row-gap: 140px;
+  align-items: center;
+  padding-bottom: 140px;
+}
+
+.inspiration__player-content {
+  padding: 35px 52px 35px 21px;
+}
+
+.inspiration__player-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.inspiration__player {
+  display: flex;
+  column-gap: 21px;
+  box-shadow: 0px 0px 25px 0px #00000014;
+  border-radius: 10px;
+  margin-top: -145.5px;
+  background-color: var(--color-light);
+}
+
+.inspiration__player-song-title {
+  font-size: clamp(24px, 1.98vw, 38px);
+  line-height: 1.16;
+}
+
+.inspiration__player-extra {
+  row-gap: 27px;
+}
+
+.inspiration__player-img img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+}
+
+.inspiration__episode-card {
+  column-gap: 217px;
+}
+
+.inspiration__episode-card-content {
+  max-width: 520px;
+  row-gap: 28px;
+}
+
+.inspiration__episode-card-info {
+  row-gap: 30px;
+}
+
+.inspiration__episode-card-meta {
+  display: flex;
+  align-items: center;
+  column-gap: 21px;
+}
+
+.inspiration__episode-card-meta::before {
+  content: "";
+  display: inline-flex;
+  border: 2px solid #cecece;
+  border-radius: 50%;
+  width: 70px;
+  aspect-ratio: 1;
+}
+
+.inspiration__episode-card-description {
+  font-family: var(--font-family-accent);
+  font-size: clamp(14px, 0.89vw, 17px);
+  font-weight: 400;
+  line-height: 1.59;
+}

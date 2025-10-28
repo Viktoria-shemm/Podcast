@@ -1,0 +1,123 @@
+body {
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.75;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.container-wide {
+  width: 100%;
+  margin-inline: auto;
+}
+
+a {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+svg * {
+  transition-property: fill, stroke;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.title-big {
+  font-size: clamp(45px, 4.95vw, 95px);
+  line-height: 1.08;
+}
+
+.title-medium {
+  font-size: clamp(36px, 2.6vw, 50px);
+  line-height: 1.1;
+}
+
+.title-small {
+  font-size: clamp(18px, 1.41vw, 27px);
+  line-height: 1.26;
+}
+
+.text-small {
+  font-family: var(--font-family-accent);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.93;
+  color: var(--color-dark-gray);
+}
+
+.link {
+  font-size: 15px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.link::after {
+  content: "";
+  display: inline-flex;
+  width: 19px;
+  height: 13px;
+  background: url(../svg/arrow.svg) center/contain no-repeat;
+}
+
+.link:hover {
+  color: var(--color-dark-gray);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
