@@ -44,6 +44,10 @@
   .episodes__main-img img {
     width: 450px;
   }
+
+  .video__play-button {
+    width: 75px;
+  }
 }
 
 @media (min-height: 1024px) {
@@ -76,6 +80,11 @@
 
   .podcasts__nav {
     column-gap: 16px;
+  }
+
+  .video__play-button {
+    background-color: transparent;
+    border: 1px solid var(--color-dark);
   }
 }
 
@@ -124,6 +133,10 @@
 
   .inspiration__player {
     margin-top: -98.5px;
+  }
+
+  .video__play-button {
+    border: none;
   }
 }
 

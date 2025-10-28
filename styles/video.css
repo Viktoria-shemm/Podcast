@@ -1,0 +1,28 @@
+.video {
+  position: relative;
+}
+
+.video__play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-light);
+  width: 90px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.video__play-button::after {
+  content: "";
+  display: inline-flex;
+  width: 25px;
+  height: 28px;
+  background: url(../svg/video-play-button.svg) center/contain no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.video__play-button:hover {
+  background-color: var(--color-light-gray);
+}
