@@ -1,0 +1,52 @@
+.episodes {
+  padding-block: 127px 180px;
+  row-gap: 58px;
+}
+
+.episodes__main-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+
+.episodes__main-item {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.episodes__main-content {
+  padding: 34px 25px 37px 30px;
+  flex-wrap: nowrap;
+}
+
+.episodes__main-title {
+  border-bottom: 2px solid var(--color-dark);
+  margin-bottom: 27px;
+}
+
+.episodes__main-text {
+  order: -1;
+  font-display: 100%;
+}
+
+.episodes__main-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  color: var(--color-dark-gray);
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.episodes__main-link::after {
+  content: "";
+  width: 20px;
+  aspect-ratio: 1;
+  background: url(../svg/Share.svg) center/contain no-repeat;
+}
+
+.episodes__main-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

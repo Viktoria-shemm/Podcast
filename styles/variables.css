@@ -17,4 +17,6 @@
     --transition-duration: 0.3s;
 
     --header-height: 137.5px;
+
+    --box-shadow: 0px 0px 25px 0px #00000014;
 }
