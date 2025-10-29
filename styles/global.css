@@ -72,6 +72,14 @@ svg {
   color: var(--color-dark-gray);
 }
 
+.text-footer,
+.text-footer a {
+  font-family: var(--font-family-accent);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.54;
+}
+
 .link {
   font-size: 15px;
   line-height: 2;
@@ -121,4 +129,20 @@ input::-webkit-inner-spin-button {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.logo {
+  position: relative;
+  font-size: 26px;
+  width: 131px;
+}
+
+.logo::after {
+  content: "";
+  background: url(../svg/header/logo.svg) center/contain no-repeat;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  right: -11px;
+  top: 10px;
 }

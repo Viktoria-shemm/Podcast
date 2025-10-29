@@ -1,0 +1,17 @@
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.000000" height="22.000000" fill="none" clip-path="url(#clipPath_0)" customFrame="url(#clipPath_0)">
+	<defs>
+		<clipPath id="clipPath_0">
+			<rect width="22.000000" height="22.000000" x="0.000000" y="0.000000" rx="11.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_1">
+			<rect width="11.000000" height="11.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" transform="matrix(1,0,0,-1,5.5,16.5)" />
+		</clipPath>
+	</defs>
+	<rect id="span.qodef-icon-holder" width="22.000000" height="22.000000" x="0.000000" y="0.000000" rx="11.000000" fill="rgb(142,139,140)" />
+	<g id="Frame" clip-path="url(#clipPath_1)" customFrame="url(#clipPath_1)">
+		<rect id="Frame" width="11.000000" height="11.000000" x="0.000000" y="0.000000" transform="matrix(1,0,0,-1,5.5,16.5)" />
+		<g id="Group">
+			<path id="Vector" d="M1.37982 0L1.37982 5.48928L0 5.48928L0 7.38094L1.37982 7.38179L1.37789 8.49595C1.37789 10.0392 1.79645 10.9786 3.61413 10.9786L5.48928 10.9786L5.48928 9.08604L4.1815 9.08604C3.47347 9.08604 3.43981 8.82187 3.43981 8.32869L3.43702 7.38179L5.50708 7.38179L5.3068 5.48992L3.4383 5.48928L3.43702 0L1.37982 0Z" fill="rgb(255,255,255)" fill-rule="nonzero" transform="matrix(1,0,0,-1,5.51074,16.4785)" />
+		</g>
+	</g>
+</svg>

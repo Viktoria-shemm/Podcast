@@ -2,22 +2,6 @@
   padding: 46px;
 }
 
-.header__logo {
-  position: relative;
-  font-size: 26px;
-  width: 131px;
-}
-
-.header__logo::after {
-  content: "";
-  background: url(../svg/header/logo.svg) center/contain no-repeat;
-  width: 13px;
-  height: 13px;
-  position: absolute;
-  right: -11px;
-  top: 10px;
-}
-
 .header__list {
   column-gap: 45px;
 }

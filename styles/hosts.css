@@ -1,0 +1,39 @@
+.hosts {
+    padding-block: 105px 140px;
+    row-gap: 60px;
+}
+
+.hosts__main-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 70px;
+}
+
+.hosts__main-item {
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    row-gap: 22px;
+}
+
+.hosts__main-content {
+    padding: 0 100px 30px 26px;
+}
+
+.hosts__main-post {
+    margin-bottom: 25px;
+}
+
+.hosts__main-soc1als {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.hosts__main-soc1al-icon {
+    width: 22px;
+    aspect-ratio: 1;
+}
+
+.hosts__main-soc1al-icon:hover {
+    transform: scale(1.1);
+}
