@@ -90,7 +90,7 @@
   }
 
   .podcasts__card-content {
-    padding: 100px 45px;
+    padding: 70px 45px;
   }
 
   .podcasts__nav {
@@ -113,10 +113,22 @@
 @media (max-width: 730px) {
   .footer__body-content-list {
     flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .footer__body-content-connection,
+  .footer__body-content-address,
+  .footer__body-content-soc1als {
+    margin-bottom: 30px;
   }
 
   .footer__body-tagline {
     max-width: 450px;
+  }
+
+  .footer__body-content-extra {
+    border-bottom: 1px solid var(--color-dark-gray);
+    width: max-content;
   }
 }
 
